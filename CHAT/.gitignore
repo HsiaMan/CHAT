@@ -1,0 +1,29 @@
+build/
+Build/
+build-*/
+cmake-build-*/
+
+# Qt Creator user-specific files
+*.pro.user
+*.pro.user.*
+*.pri.user
+*.qbs.user
+*.qbs.user.*
+
+
+
+
+
+#clangd /VScode
+.cache/
+.clangd/
+.vscode/
+
+#MacOS system files
+.DS_Store
+
+#Object files
+*.o
+*.obj
+
+
