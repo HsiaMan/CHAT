@@ -41,6 +41,8 @@ else()
             logindialog.h logindialog.cpp logindialog.ui
             rc.qrc
             registerdialog.h registerdialog.cpp registerdialog.ui
+            global.h
+            global.cpp
         )
     endif()
 endif()
