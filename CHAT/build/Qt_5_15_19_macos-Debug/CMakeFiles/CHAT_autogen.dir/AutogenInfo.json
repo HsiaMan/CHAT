@@ -1,0 +1,184 @@
+{
+	"BUILD_DIR" : "/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/CHAT/build/Qt_5_15_19_macos-Debug/CHAT_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/CHAT/build/Qt_5_15_19_macos-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/CHAT/build/Qt_5_15_19_macos-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/CHAT",
+	"CMAKE_EXECUTABLE" : "/opt/homebrew/Cellar/cmake/3.31.1/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/CHAT/CMakeLists.txt",
+		"/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/CHAT/build/Qt_5_15_19_macos-Debug/.qtc/package-manager/auto-setup.cmake",
+		"/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/CHAT/build/Qt_5_15_19_macos-Debug/CMakeFiles/3.31.1/CMakeSystem.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/Platform/Darwin-Initialize.cmake",
+		"/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/CHAT/build/Qt_5_15_19_macos-Debug/CMakeFiles/3.31.1/CMakeCXXCompiler.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/CMakeSystemSpecificInformation.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/CMakeGenericSystem.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/CMakeInitializeConfigs.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/Platform/Darwin.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/Platform/UnixPaths.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/CMakeCXXInformation.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/CMakeLanguageInformation.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/Compiler/AppleClang-CXX.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/Compiler/Clang.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/Compiler/GNU.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/Platform/Apple-Clang.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/CMakeCommonLanguageInclude.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/Linker/AppleClang-CXX.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/Linker/AppleClang.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/Platform/Linker/Apple-AppleClang.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5/Qt5Config.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5/Qt5Config.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/CMakeParseArguments.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Gui/Qt5Gui_QInsightTrackerPlugin.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Gui/Qt5Gui_QPdfPlugin.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/CMakeParseArguments.cmake",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/GNUInstallDirs.cmake",
+		"/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/CHAT/rc.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/CHAT",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/CHAT/build/Qt_5_15_19_macos-Debug/CHAT_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "CHAT_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/CHAT/logindialog.h",
+			"MU",
+			"EWIEGA46WW/moc_logindialog.cpp",
+			null
+		],
+		[
+			"/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/CHAT/mainwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/CHAT/registerdialog.h",
+			"MU",
+			"EWIEGA46WW/moc_registerdialog.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/CHAT/build/Qt_5_15_19_macos-Debug/CHAT_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/CHAT/build/Qt_5_15_19_macos-Debug/CHAT_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/QtWidgets.framework",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/QtWidgets.framework/Headers",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/QtGui.framework",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/QtGui.framework/Headers",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/QtCore.framework",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/lib/QtCore.framework/Headers",
+		"/Users/zhangxihsia/Qt/5.15.19/macos/mkspecs/macx-clang",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/clang++",
+		"-std=gnu++17",
+		"-dM",
+		"-E",
+		"-c",
+		"/opt/homebrew/Cellar/cmake/3.31.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/CHAT/build/Qt_5_15_19_macos-Debug/CHAT_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/CHAT/build/Qt_5_15_19_macos-Debug/CMakeFiles/CHAT_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/Users/zhangxihsia/Qt/5.15.19/macos/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/Users/zhangxihsia/Qt/5.15.19/macos/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/CHAT/build/Qt_5_15_19_macos-Debug/CMakeFiles/CHAT_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/CHAT/logindialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/CHAT/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/CHAT/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/CHAT/registerdialog.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/cat.jpg</file>
+        <file>resources/backgrounp.png</file>
+        <file>style/stylesheet.qss</file>
+    </qresource>
+</RCC>
