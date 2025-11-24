@@ -3,7 +3,15 @@ HttpMgr::~HttpMgr(){}
 HttpMgr::HttpMgr() {
     connect(this,&HttpMgr::sig_http_finish,this,&HttpMgr::slot_http_finish);
 }
-
+/*
+ * 调用PostHttpReq()
+ * QNetworkAccessManger向服务器发送异步请求(post)
+ * Qt Event loop(事件循环)继续做事，不阻塞
+ * 服务器返回数据
+ * QNetworkReply::finished()信号被触发
+ * lmabda/slot被调用
+ * 处理结果->emit sig_http_finish();
+ */
 void HttpMgr::PostHttpReq(QUrl url, QJsonObject json, ReqId req_id, Modules mod)
 {
     QByteArray data = QJsonDocument(json).toJson();
@@ -11,7 +19,9 @@ void HttpMgr::PostHttpReq(QUrl url, QJsonObject json, ReqId req_id, Modules mod)
     request.setHeader(QNetworkRequest::ContentTypeHeader,"application/json");
     request.setHeader(QNetworkRequest::ContentLengthHeader,QByteArray::number(data.length()));
     auto self = shared_from_this();
+    //1.发请求
     QNetworkReply * reply = _manager.post(request,data);
+    //2.绑定finished信号
     QObject::connect(reply,&QNetworkReply::finished,[self,reply,req_id,mod](){
         //处理错误情况
         if(reply->error() != QNetworkReply::NoError){
