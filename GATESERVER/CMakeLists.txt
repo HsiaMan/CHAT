@@ -1,24 +1,21 @@
 cmake_minimum_required(VERSION 3.16)
 project(GateServer)
 
-# C++17
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# 使用 Homebrew LLVM（防止自动回退到 AppleClang）
-set(CMAKE_C_COMPILER "/opt/homebrew/opt/llvm/bin/clang")
-set(CMAKE_CXX_COMPILER "/opt/homebrew/opt/llvm/bin/clang++")
-
-# Boost 头文件路径
-include_directories(/opt/homebrew/include)
-
-# Boost 文件系统库路径
-link_directories(/opt/homebrew/lib)
-
-# 可执行文件
-add_executable(GateServer main.cpp)
-
-# Boost.Filesystem + header-only System
-target_link_libraries(GateServer
-    /opt/homebrew/lib/libboost_filesystem.dylib
+# 头文件路径
+include_directories(
+    ${PROJECT_SOURCE_DIR}/header
+    /opt/homebrew/include
 )
+
+# 自动扫描 src 下所有 .cpp
+file(GLOB_RECURSE SRC_FILES
+    ${PROJECT_SOURCE_DIR}/src/*.cpp
+)
+
+add_executable(GateServer ${SRC_FILES})
+
+# 目前只用到 header-only 的 Asio/Beast，不需要额外链接 boost 库
+# 如果未来真的要用 filesystem，建议改用 std::filesystem 而不是 boost::filesystem

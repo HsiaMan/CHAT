@@ -1,6 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/GateServer.dir/main.cpp.o"
-  "CMakeFiles/GateServer.dir/main.cpp.o.d"
+  "CMakeFiles/GateServer.dir/src/CServer.cpp.o"
+  "CMakeFiles/GateServer.dir/src/CServer.cpp.o.d"
+  "CMakeFiles/GateServer.dir/src/GateServer.cpp.o"
+  "CMakeFiles/GateServer.dir/src/GateServer.cpp.o.d"
+  "CMakeFiles/GateServer.dir/src/HttpConnection.cpp.o"
+  "CMakeFiles/GateServer.dir/src/HttpConnection.cpp.o.d"
+  "CMakeFiles/GateServer.dir/src/LogicSytsem.cpp.o"
+  "CMakeFiles/GateServer.dir/src/LogicSytsem.cpp.o.d"
   "GateServer"
   "GateServer.pdb"
 )

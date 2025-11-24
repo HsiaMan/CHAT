@@ -72,32 +72,79 @@ include CMakeFiles/GateServer.dir/flags.make
 CMakeFiles/GateServer.dir/codegen:
 .PHONY : CMakeFiles/GateServer.dir/codegen
 
-CMakeFiles/GateServer.dir/main.cpp.o: CMakeFiles/GateServer.dir/flags.make
-CMakeFiles/GateServer.dir/main.cpp.o: /Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/main.cpp
-CMakeFiles/GateServer.dir/main.cpp.o: CMakeFiles/GateServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GateServer.dir/main.cpp.o"
-	/opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GateServer.dir/main.cpp.o -MF CMakeFiles/GateServer.dir/main.cpp.o.d -o CMakeFiles/GateServer.dir/main.cpp.o -c /Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/main.cpp
+CMakeFiles/GateServer.dir/src/CServer.cpp.o: CMakeFiles/GateServer.dir/flags.make
+CMakeFiles/GateServer.dir/src/CServer.cpp.o: /Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/src/CServer.cpp
+CMakeFiles/GateServer.dir/src/CServer.cpp.o: CMakeFiles/GateServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GateServer.dir/src/CServer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GateServer.dir/src/CServer.cpp.o -MF CMakeFiles/GateServer.dir/src/CServer.cpp.o.d -o CMakeFiles/GateServer.dir/src/CServer.cpp.o -c /Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/src/CServer.cpp
 
-CMakeFiles/GateServer.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GateServer.dir/main.cpp.i"
-	/opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/main.cpp > CMakeFiles/GateServer.dir/main.cpp.i
+CMakeFiles/GateServer.dir/src/CServer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GateServer.dir/src/CServer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/src/CServer.cpp > CMakeFiles/GateServer.dir/src/CServer.cpp.i
 
-CMakeFiles/GateServer.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/main.cpp.s"
-	/opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/main.cpp -o CMakeFiles/GateServer.dir/main.cpp.s
+CMakeFiles/GateServer.dir/src/CServer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/src/CServer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/src/CServer.cpp -o CMakeFiles/GateServer.dir/src/CServer.cpp.s
+
+CMakeFiles/GateServer.dir/src/GateServer.cpp.o: CMakeFiles/GateServer.dir/flags.make
+CMakeFiles/GateServer.dir/src/GateServer.cpp.o: /Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/src/GateServer.cpp
+CMakeFiles/GateServer.dir/src/GateServer.cpp.o: CMakeFiles/GateServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GateServer.dir/src/GateServer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GateServer.dir/src/GateServer.cpp.o -MF CMakeFiles/GateServer.dir/src/GateServer.cpp.o.d -o CMakeFiles/GateServer.dir/src/GateServer.cpp.o -c /Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/src/GateServer.cpp
+
+CMakeFiles/GateServer.dir/src/GateServer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GateServer.dir/src/GateServer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/src/GateServer.cpp > CMakeFiles/GateServer.dir/src/GateServer.cpp.i
+
+CMakeFiles/GateServer.dir/src/GateServer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/src/GateServer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/src/GateServer.cpp -o CMakeFiles/GateServer.dir/src/GateServer.cpp.s
+
+CMakeFiles/GateServer.dir/src/HttpConnection.cpp.o: CMakeFiles/GateServer.dir/flags.make
+CMakeFiles/GateServer.dir/src/HttpConnection.cpp.o: /Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/src/HttpConnection.cpp
+CMakeFiles/GateServer.dir/src/HttpConnection.cpp.o: CMakeFiles/GateServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GateServer.dir/src/HttpConnection.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GateServer.dir/src/HttpConnection.cpp.o -MF CMakeFiles/GateServer.dir/src/HttpConnection.cpp.o.d -o CMakeFiles/GateServer.dir/src/HttpConnection.cpp.o -c /Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/src/HttpConnection.cpp
+
+CMakeFiles/GateServer.dir/src/HttpConnection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GateServer.dir/src/HttpConnection.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/src/HttpConnection.cpp > CMakeFiles/GateServer.dir/src/HttpConnection.cpp.i
+
+CMakeFiles/GateServer.dir/src/HttpConnection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/src/HttpConnection.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/src/HttpConnection.cpp -o CMakeFiles/GateServer.dir/src/HttpConnection.cpp.s
+
+CMakeFiles/GateServer.dir/src/LogicSytsem.cpp.o: CMakeFiles/GateServer.dir/flags.make
+CMakeFiles/GateServer.dir/src/LogicSytsem.cpp.o: /Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/src/LogicSytsem.cpp
+CMakeFiles/GateServer.dir/src/LogicSytsem.cpp.o: CMakeFiles/GateServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GateServer.dir/src/LogicSytsem.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GateServer.dir/src/LogicSytsem.cpp.o -MF CMakeFiles/GateServer.dir/src/LogicSytsem.cpp.o.d -o CMakeFiles/GateServer.dir/src/LogicSytsem.cpp.o -c /Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/src/LogicSytsem.cpp
+
+CMakeFiles/GateServer.dir/src/LogicSytsem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GateServer.dir/src/LogicSytsem.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/src/LogicSytsem.cpp > CMakeFiles/GateServer.dir/src/LogicSytsem.cpp.i
+
+CMakeFiles/GateServer.dir/src/LogicSytsem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GateServer.dir/src/LogicSytsem.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/src/LogicSytsem.cpp -o CMakeFiles/GateServer.dir/src/LogicSytsem.cpp.s
 
 # Object files for target GateServer
 GateServer_OBJECTS = \
-"CMakeFiles/GateServer.dir/main.cpp.o"
+"CMakeFiles/GateServer.dir/src/CServer.cpp.o" \
+"CMakeFiles/GateServer.dir/src/GateServer.cpp.o" \
+"CMakeFiles/GateServer.dir/src/HttpConnection.cpp.o" \
+"CMakeFiles/GateServer.dir/src/LogicSytsem.cpp.o"
 
 # External object files for target GateServer
 GateServer_EXTERNAL_OBJECTS =
 
-GateServer: CMakeFiles/GateServer.dir/main.cpp.o
+GateServer: CMakeFiles/GateServer.dir/src/CServer.cpp.o
+GateServer: CMakeFiles/GateServer.dir/src/GateServer.cpp.o
+GateServer: CMakeFiles/GateServer.dir/src/HttpConnection.cpp.o
+GateServer: CMakeFiles/GateServer.dir/src/LogicSytsem.cpp.o
 GateServer: CMakeFiles/GateServer.dir/build.make
-GateServer: /opt/homebrew/lib/libboost_filesystem.dylib
 GateServer: CMakeFiles/GateServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable GateServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable GateServer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GateServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

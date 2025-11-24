@@ -129,29 +129,101 @@ GateServer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/build
 .PHONY : GateServer/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/CServer.o: src/CServer.cpp.o
+.PHONY : src/CServer.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/CServer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/src/CServer.cpp.o
+.PHONY : src/CServer.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/CServer.i: src/CServer.cpp.i
+.PHONY : src/CServer.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/CServer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/src/CServer.cpp.i
+.PHONY : src/CServer.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/CServer.s: src/CServer.cpp.s
+.PHONY : src/CServer.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/CServer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/src/CServer.cpp.s
+.PHONY : src/CServer.cpp.s
+
+src/GateServer.o: src/GateServer.cpp.o
+.PHONY : src/GateServer.o
+
+# target to build an object file
+src/GateServer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/src/GateServer.cpp.o
+.PHONY : src/GateServer.cpp.o
+
+src/GateServer.i: src/GateServer.cpp.i
+.PHONY : src/GateServer.i
+
+# target to preprocess a source file
+src/GateServer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/src/GateServer.cpp.i
+.PHONY : src/GateServer.cpp.i
+
+src/GateServer.s: src/GateServer.cpp.s
+.PHONY : src/GateServer.s
+
+# target to generate assembly for a file
+src/GateServer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/src/GateServer.cpp.s
+.PHONY : src/GateServer.cpp.s
+
+src/HttpConnection.o: src/HttpConnection.cpp.o
+.PHONY : src/HttpConnection.o
+
+# target to build an object file
+src/HttpConnection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/src/HttpConnection.cpp.o
+.PHONY : src/HttpConnection.cpp.o
+
+src/HttpConnection.i: src/HttpConnection.cpp.i
+.PHONY : src/HttpConnection.i
+
+# target to preprocess a source file
+src/HttpConnection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/src/HttpConnection.cpp.i
+.PHONY : src/HttpConnection.cpp.i
+
+src/HttpConnection.s: src/HttpConnection.cpp.s
+.PHONY : src/HttpConnection.s
+
+# target to generate assembly for a file
+src/HttpConnection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/src/HttpConnection.cpp.s
+.PHONY : src/HttpConnection.cpp.s
+
+src/LogicSytsem.o: src/LogicSytsem.cpp.o
+.PHONY : src/LogicSytsem.o
+
+# target to build an object file
+src/LogicSytsem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/src/LogicSytsem.cpp.o
+.PHONY : src/LogicSytsem.cpp.o
+
+src/LogicSytsem.i: src/LogicSytsem.cpp.i
+.PHONY : src/LogicSytsem.i
+
+# target to preprocess a source file
+src/LogicSytsem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/src/LogicSytsem.cpp.i
+.PHONY : src/LogicSytsem.cpp.i
+
+src/LogicSytsem.s: src/LogicSytsem.cpp.s
+.PHONY : src/LogicSytsem.s
+
+# target to generate assembly for a file
+src/LogicSytsem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GateServer.dir/build.make CMakeFiles/GateServer.dir/src/LogicSytsem.cpp.s
+.PHONY : src/LogicSytsem.cpp.s
 
 # Help Target
 help:
@@ -162,9 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... GateServer"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/CServer.o"
+	@echo "... src/CServer.i"
+	@echo "... src/CServer.s"
+	@echo "... src/GateServer.o"
+	@echo "... src/GateServer.i"
+	@echo "... src/GateServer.s"
+	@echo "... src/HttpConnection.o"
+	@echo "... src/HttpConnection.i"
+	@echo "... src/HttpConnection.s"
+	@echo "... src/LogicSytsem.o"
+	@echo "... src/LogicSytsem.i"
+	@echo "... src/LogicSytsem.s"
 .PHONY : help
 
 

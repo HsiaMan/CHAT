@@ -8,7 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/main.cpp" "CMakeFiles/GateServer.dir/main.cpp.o" "gcc" "CMakeFiles/GateServer.dir/main.cpp.o.d"
+  "/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/src/CServer.cpp" "CMakeFiles/GateServer.dir/src/CServer.cpp.o" "gcc" "CMakeFiles/GateServer.dir/src/CServer.cpp.o.d"
+  "/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/src/GateServer.cpp" "CMakeFiles/GateServer.dir/src/GateServer.cpp.o" "gcc" "CMakeFiles/GateServer.dir/src/GateServer.cpp.o.d"
+  "/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/src/HttpConnection.cpp" "CMakeFiles/GateServer.dir/src/HttpConnection.cpp.o" "gcc" "CMakeFiles/GateServer.dir/src/HttpConnection.cpp.o.d"
+  "/Users/zhangxihsia/Desktop/CPlusPlusFILES/CPPPROJECT/GATESERVER/src/LogicSytsem.cpp" "CMakeFiles/GateServer.dir/src/LogicSytsem.cpp.o" "gcc" "CMakeFiles/GateServer.dir/src/LogicSytsem.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
