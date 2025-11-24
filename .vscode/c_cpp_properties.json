@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",   
+                "/opt/homebrew/include",
+                "/opt/homebrew/opt/llvm/include/c++/v1",
+                "/opt/homebrew/opt/llvm/lib/clang/21/include",
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "/opt/homebrew/include",
+                    "/opt/homebrew/opt/llvm/include/c++/v1",
+                    "/opt/homebrew/opt/llvm/lib/clang/21/include",
+                    "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"
+                ],
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "compilerPath": "/opt/homebrew/opt/llvm/bin/clang++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+        }
+    ],
+    "version": 4
+}
